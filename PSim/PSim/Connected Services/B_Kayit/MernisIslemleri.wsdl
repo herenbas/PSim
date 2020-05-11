@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:tns="http://tckk/MernisIslemleri" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsaws="http://www.w3.org/2005/08/addressing" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="MernisIslemleri" targetNamespace="http://tckk/MernisIslemleri" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="SecurityServiceUsernameUnsecureTransportPolicy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SupportingTokens xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702">
+          <wsp:Policy>
+            <sp:UsernameToken sp:IncludeToken="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702/IncludeToken/AlwaysToRecipient">
+              <wsp:Policy>
+                <sp:WssUsernameToken10 />
+              </wsp:Policy>
+            </sp:UsernameToken>
+          </wsp:Policy>
+        </sp:SupportingTokens>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xs:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" targetNamespace="http://tckk/MernisIslemleri" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="basvuruDurumSorgula" type="tns:basvuruDurumSorgula" />
+      <xs:element name="basvuruDurumSorgulaResponse" type="tns:basvuruDurumSorgulaResponse" />
+      <xs:element name="basvuruIptalEt" type="tns:basvuruIptalEt" />
+      <xs:element name="basvuruIptalEtResponse" type="tns:basvuruIptalEtResponse" />
+      <xs:element name="basvuruKaydet" type="tns:basvuruKaydet" />
+      <xs:element name="basvuruKaydetResponse" type="tns:basvuruKaydetResponse" />
+      <xs:element name="hataKaydet" type="tns:hataKaydet" />
+      <xs:element name="hataKaydetResponse" type="tns:hataKaydetResponse" />
+      <xs:element name="pttTeslimBilgisiKaydet" type="tns:pttTeslimBilgisiKaydet" />
+      <xs:element name="pttTeslimBilgisiKaydetResponse" type="tns:pttTeslimBilgisiKaydetResponse" />
+      <xs:complexType name="basvuruIptalEt">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="mernisIslemId" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="basvuruIptalEtResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:standartWSSonuc" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="standartWSSonuc">
+        <xs:sequence>
+          <xs:element name="basarili" type="xs:boolean" />
+          <xs:element minOccurs="0" name="hataAciklama" type="xs:string" />
+          <xs:element name="hataKodu" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="pttTeslimBilgisiKaydet">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="pttTeslimBilgisi" type="tns:pttTeslimBilgisi" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="pttTeslimBilgisi">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="mernisIslemIdList" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="pttTeslimBilgisiKaydetResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:pttTeslimBilgisiSonuc" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="pttTeslimBilgisiSonuc">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:standartWSSonuc">
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="pttTeslimBilgisiTekilSonucList" type="tns:pttTeslimBilgisiTekilSonuc" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="pttTeslimBilgisiTekilSonuc">
+        <xs:sequence>
+          <xs:element name="basarili" type="xs:boolean" />
+          <xs:element minOccurs="0" name="hataAciklama" type="xs:string" />
+          <xs:element name="hataKodu" type="xs:int" />
+          <xs:element minOccurs="0" name="mernisIslemId" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="hataKaydet">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="WebServisAd" type="xs:string" />
+          <xs:element minOccurs="0" name="Aciklama" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="hataKaydetResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:standartWSSonuc" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="basvuruKaydet">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="tckkBasvuru" type="tns:tckkBasvuru" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="tckkBasvuru">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="adi" type="xs:string" />
+          <xs:element minOccurs="0" name="aliciMernisBirimKodu" type="xs:int" />
+          <xs:element minOccurs="0" name="basvuruPostaTakipKod" type="xs:long" />
+          <xs:element minOccurs="0" name="bvysOnayMuaf" type="xs:boolean" />
+          <xs:element minOccurs="0" name="cepTelefonNumarasi" type="xs:string" />
+          <xs:element minOccurs="0" name="cinsiyet" type="tns:cinsiyet" />
+          <xs:element minOccurs="0" name="dogumAy" type="xs:int" />
+          <xs:element minOccurs="0" name="dogumGun" type="xs:int" />
+          <xs:element minOccurs="0" name="dogumYeri" type="xs:string" />
+          <xs:element minOccurs="0" name="dogumYil" type="xs:int" />
+          <xs:element minOccurs="0" name="duzenlenmeTarihiAy" type="xs:int" />
+          <xs:element minOccurs="0" name="duzenlenmeTarihiGun" type="xs:int" />
+          <xs:element minOccurs="0" name="duzenlenmeTarihiYil" type="xs:int" />
+          <xs:element minOccurs="0" name="formatlanmisDogumTarihi" type="xs:string" />
+          <xs:element minOccurs="0" name="formatlanmisDuzenlenmeTarihi" type="xs:string" />
+          <xs:element minOccurs="0" name="formatlanmisSonGecerlilikTarihi" type="xs:string" />
+          <xs:element minOccurs="0" name="fotograf" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="fotografIcaoTokenImage" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="iadeMernisBirimKodu" type="xs:int" />
+          <xs:element minOccurs="0" name="icaoTokenImageType" type="xs:string" />
+          <xs:element minOccurs="0" name="islakImza" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="kpsAdres" type="xs:string" />
+          <xs:element minOccurs="0" name="mernisAciklama" type="xs:string" />
+          <xs:element minOccurs="0" name="mernisIslemId" type="xs:string" />
+          <xs:element minOccurs="0" name="meslek" type="xs:string" />
+          <xs:element minOccurs="0" name="mrzLine" type="xs:string" />
+          <xs:element minOccurs="0" name="oncelik" type="tns:basvuruOncelik" />
+          <xs:element minOccurs="0" name="pasaportTuru" type="tns:pasaportTuru" />
+          <xs:element minOccurs="0" name="sonGecerlilikTarihiAy" type="xs:int" />
+          <xs:element minOccurs="0" name="sonGecerlilikTarihiGun" type="xs:int" />
+          <xs:element minOccurs="0" name="sonGecerlilikTarihiYil" type="xs:int" />
+          <xs:element minOccurs="0" name="soyadi" type="xs:string" />
+          <xs:element minOccurs="0" name="tckNo" type="xs:long" />
+          <xs:element minOccurs="0" name="telefonNumarasi" type="xs:string" />
+          <xs:element minOccurs="0" name="teslimAliciAdresiSatir1" type="xs:string" />
+          <xs:element minOccurs="0" name="teslimAliciAdresiSatir2" type="xs:string" />
+          <xs:element minOccurs="0" name="teslimAliciAdresiSatir3" type="xs:string" />
+          <xs:element minOccurs="0" name="teslimAliciAdresiSatir4" type="xs:string" />
+          <xs:element minOccurs="0" name="teslimKisi2Ad" type="xs:string" />
+          <xs:element minOccurs="0" name="teslimKisi2Soyad" type="xs:string" />
+          <xs:element minOccurs="0" name="teslimKisiAd" type="xs:string" />
+          <xs:element minOccurs="0" name="teslimKisiSoyad" type="xs:string" />
+          <xs:element minOccurs="0" name="teslimSekli" type="tns:teslimSekli" />
+          <xs:element minOccurs="0" name="title" type="xs:string" />
+          <xs:element minOccurs="0" name="unvan" type="xs:string" />
+          <xs:element minOccurs="0" name="uyrugu" type="xs:string" />
+          <xs:element minOccurs="0" name="verenMakam" type="xs:string" />
+          <xs:element minOccurs="0" name="vizAdi" type="xs:string" />
+          <xs:element minOccurs="0" name="vizSoyadi" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="basvuruKaydetResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:standartWSSonuc" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="basvuruDurumSorgula">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="mernisIslemId" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="basvuruDurumSorgulaResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="tns:basvuruDurumSorgulaSonuc" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="basvuruDurumSorgulaSonuc">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:standartWSSonuc">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="basvuruDurumAciklama" type="xs:string" />
+              <xs:element minOccurs="0" name="basvuruDurumKod" type="xs:int" />
+              <xs:element minOccurs="0" name="basvuruTarih" type="tns:zamanBilgi" />
+              <xs:element minOccurs="0" name="kartDurumAciklama" type="xs:string" />
+              <xs:element minOccurs="0" name="kartDurumKod" type="xs:int" />
+              <xs:element minOccurs="0" name="kartSeriNo" type="xs:string" />
+              <xs:element minOccurs="0" name="postaTakipKodu" type="xs:long" />
+              <xs:element minOccurs="0" name="tcKimlikNo" type="xs:long" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="zamanBilgi">
+        <xs:sequence>
+          <xs:element name="day" type="xs:int" />
+          <xs:element name="hour" type="xs:int" />
+          <xs:element name="minute" type="xs:int" />
+          <xs:element name="month" type="xs:int" />
+          <xs:element name="seconds" type="xs:int" />
+          <xs:element name="year" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:simpleType name="cinsiyet">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="BILINMEYEN" />
+          <xs:enumeration value="ERKEK" />
+          <xs:enumeration value="KADIN" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="basvuruOncelik">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="NORMAL" />
+          <xs:enumeration value="TEKRAR_BASIM" />
+          <xs:enumeration value="ACIL" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="pasaportTuru">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="BORDO_PASAPORT" />
+          <xs:enumeration value="YESIL_PASAPORT" />
+          <xs:enumeration value="GRI_PASAPORT" />
+          <xs:enumeration value="DIPLOMATIK_PASAPORT" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="teslimSekli">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="PTT_ILE_TESLIM" />
+          <xs:enumeration value="ELDEN_YURTDISINA_TESLIM" />
+          <xs:enumeration value="ELDEN_TESLIM" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="basvuruIptalEtResponse">
+    <wsdl:part name="parameters" element="tns:basvuruIptalEtResponse" />
+  </wsdl:message>
+  <wsdl:message name="basvuruDurumSorgula">
+    <wsdl:part name="parameters" element="tns:basvuruDurumSorgula" />
+  </wsdl:message>
+  <wsdl:message name="hataKaydet">
+    <wsdl:part name="parameters" element="tns:hataKaydet" />
+  </wsdl:message>
+  <wsdl:message name="basvuruKaydet">
+    <wsdl:part name="parameters" element="tns:basvuruKaydet" />
+  </wsdl:message>
+  <wsdl:message name="pttTeslimBilgisiKaydet">
+    <wsdl:part name="parameters" element="tns:pttTeslimBilgisiKaydet" />
+  </wsdl:message>
+  <wsdl:message name="pttTeslimBilgisiKaydetResponse">
+    <wsdl:part name="parameters" element="tns:pttTeslimBilgisiKaydetResponse" />
+  </wsdl:message>
+  <wsdl:message name="basvuruKaydetResponse">
+    <wsdl:part name="parameters" element="tns:basvuruKaydetResponse" />
+  </wsdl:message>
+  <wsdl:message name="basvuruIptalEt">
+    <wsdl:part name="parameters" element="tns:basvuruIptalEt" />
+  </wsdl:message>
+  <wsdl:message name="basvuruDurumSorgulaResponse">
+    <wsdl:part name="parameters" element="tns:basvuruDurumSorgulaResponse" />
+  </wsdl:message>
+  <wsdl:message name="hataKaydetResponse">
+    <wsdl:part name="parameters" element="tns:hataKaydetResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MernisIslemleriWSInt">
+    <wsdl:operation name="basvuruIptalEt">
+      <wsdl:input name="basvuruIptalEt" message="tns:basvuruIptalEt" />
+      <wsdl:output name="basvuruIptalEtResponse" message="tns:basvuruIptalEtResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="pttTeslimBilgisiKaydet">
+      <wsdl:input name="pttTeslimBilgisiKaydet" message="tns:pttTeslimBilgisiKaydet" />
+      <wsdl:output name="pttTeslimBilgisiKaydetResponse" message="tns:pttTeslimBilgisiKaydetResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="hataKaydet">
+      <wsdl:input name="hataKaydet" message="tns:hataKaydet" />
+      <wsdl:output name="hataKaydetResponse" message="tns:hataKaydetResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="basvuruKaydet">
+      <wsdl:input name="basvuruKaydet" message="tns:basvuruKaydet" />
+      <wsdl:output name="basvuruKaydetResponse" message="tns:basvuruKaydetResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="basvuruDurumSorgula">
+      <wsdl:input name="basvuruDurumSorgula" message="tns:basvuruDurumSorgula" />
+      <wsdl:output name="basvuruDurumSorgulaResponse" message="tns:basvuruDurumSorgulaResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MernisIslemleriSoapBinding" type="tns:MernisIslemleriWSInt">
+    <wsp:PolicyReference URI="#SecurityServiceUsernameUnsecureTransportPolicy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="basvuruIptalEt">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="basvuruIptalEt">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="basvuruIptalEtResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="pttTeslimBilgisiKaydet">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="pttTeslimBilgisiKaydet">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="pttTeslimBilgisiKaydetResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="hataKaydet">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="hataKaydet">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="hataKaydetResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="basvuruKaydet">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="basvuruKaydet">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="basvuruKaydetResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="basvuruDurumSorgula">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="basvuruDurumSorgula">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="basvuruDurumSorgulaResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MernisIslemleri">
+    <wsdl:port name="MernisIslemleriPort" binding="tns:MernisIslemleriSoapBinding">
+      <soap:address location="http://SRVAPASKAY01.mernis.test:8180/merveys-kayit-ejb/MernisIslemleri/MernisIslemleri" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

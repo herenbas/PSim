@@ -1,0 +1,852 @@
+07:08:20,036 INFO  [org.jboss.modules] (main) JBoss Modules version 1.2.0.Final-redhat-1
+07:08:21,036 INFO  [org.jboss.msc] (main) JBoss MSC version 1.0.4.GA-redhat-1
+07:08:21,099 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015899: JBoss EAP 6.1.0.GA (AS 7.2.0.Final-redhat-8) starting
+07:08:26,645 INFO  [org.xnio] (MSC service thread 1-4) XNIO Version 3.0.7.GA-redhat-1
+07:08:26,677 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+07:08:26,677 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.0.7.GA-redhat-1
+07:08:26,692 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 3.2.16.GA-redhat-1
+07:08:26,802 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+07:08:26,989 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Activating Naming Subsystem
+07:08:26,880 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+07:08:26,958 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013171: Activating Security Subsystem
+07:08:26,958 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+07:08:26,958 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+07:08:27,145 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.17.Final-redhat-1
+07:08:27,833 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.17.Final-redhat-1)
+07:08:27,927 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+07:08:28,130 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+07:08:28,739 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 12.1)
+07:08:29,067 INFO  [org.apache.coyote.http11] (MSC service thread 1-4) JBWEB003001: Coyote HTTP/1.1 initializing on : http-SRVAPASKAY01.mernis.test/172.29.72.11:8180
+07:08:29,067 INFO  [org.apache.coyote.http11] (MSC service thread 1-4) JBWEB003000: Coyote HTTP/1.1 starting on: http-SRVAPASKAY01.mernis.test/172.29.72.11:8180
+07:08:29,192 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:/MerveysDS]
+07:08:30,442 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.1.3.Final-redhat-3
+07:08:30,645 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "merveys-kayit-1.0.15.ear" (runtime-name: "merveys-kayit-1.0.15.ear")
+07:08:30,645 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory C:\Server\jboss-eap-6.1\standalone\deployments
+07:08:30,661 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on 172.29.72.11:4547
+07:08:30,661 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 172.29.72.11:10099
+07:08:35,302 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry xml-apis.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/serializer-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,302 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-api-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,302 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/woodstox-core-asl-4.1.4.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,302 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/stax2-api-3.1.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,302 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/xmlschema-core-2.0.3.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,302 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/geronimo-javamail_1.4_spec-1.7.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,302 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/wsdl4j-1.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,302 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-transports-http-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,302 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-core-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,302 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/jaxb-impl-2.1.13.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,302 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-frontend-jaxws-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,317 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/xml-resolver-1.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,317 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/asm-3.3.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,317 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-bindings-soap-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,317 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-databinding-jaxb-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,317 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-bindings-xml-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,317 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-frontend-simple-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,333 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-ws-addr-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,333 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-ws-policy-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,333 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/neethi-3.0.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,349 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/nvistshandler-1.0.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,349 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/xmlsec-1.4.9-nvi.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,349 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/xalan-2.7.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,349 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/serializer-2.7.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,349 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/xml-apis-1.3.04.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,349 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/slf4j-api-1.6.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,349 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/slf4j-log4j12-1.6.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,349 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/log4j-1.2.16.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,364 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/javax.json-1.0.4.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.0.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,364 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry xercesImpl.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,364 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry xml-apis.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry serializer.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry jaxb-api.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/jaxb-impl-2.1.13.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry activation.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/jaxb-impl-2.1.13.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry jsr173_1.0_api.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/jaxb-impl-2.1.13.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry jaxb1-impl.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/jaxb-impl-2.1.13.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-api-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/woodstox-core-asl-4.1.4.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/stax2-api-3.1.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/xmlschema-core-2.0.3.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/geronimo-javamail_1.4_spec-1.7.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/wsdl4j-1.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-transports-http-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-core-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/jaxb-impl-2.1.13.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-frontend-jaxws-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/xml-resolver-1.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/asm-3.3.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-bindings-soap-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-databinding-jaxb-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-bindings-xml-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-frontend-simple-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-ws-addr-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/cxf-rt-ws-policy-2.6.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/neethi-3.0.2.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/nvistshandler-1.0.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/xmlsec-1.4.9-nvi.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/xalan-2.7.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/serializer-2.7.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/xml-apis-1.3.04.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/slf4j-api-1.6.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/slf4j-log4j12-1.6.1.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/log4j-1.2.16.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,411 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry pys-merniswsclient_lib/javax.json-1.0.4.jar in /C:/Server/jboss-eap-6.1/bin/content/merveys-kayit-1.0.15.ear/lib/pys-merniswsclient-1.0.1.jar  does not point to a valid jar for a Class-Path reference.
+07:08:35,427 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "null" (runtime-name: "merveys-kayit-ejb.jar")
+07:08:35,458 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015893: Encountered invalid class name 'org.springframework.context.ApplicationContext,org.springframework.beans.BeansException' for service type 'org.apache.cxf.bus.factory'
+07:08:35,489 INFO  [org.jboss.as.pojo] (MSC service thread 1-3) JBAS017000: Found legacy bean/pojo namespace: urn:jboss:bean-deployer:2.0 - might be missing some xml features (potential exceptions).
+07:08:35,583 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Read persistence.xml for TckkDS
+07:08:35,880 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.merveys-kayit-1.0.15.ear.merveys-kayit-ejb.jar" is using a private module ("org.codehaus.woodstox:main") which may be changed or removed in future versions without notice.
+07:08:35,880 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.merveys-kayit-1.0.15.ear.merveys-kayit-ejb.jar" is using a private module ("org.codehaus.woodstox:main") which may be changed or removed in future versions without notice.
+07:08:35,880 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.merveys-kayit-1.0.15.ear.merveys-kayit-ejb.jar" is using a private module ("com.sun.xml.bind:main") which may be changed or removed in future versions without notice.
+07:08:35,880 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.merveys-kayit-1.0.15.ear.merveys-kayit-ejb.jar" is using a private module ("com.sun.xml.bind:main") which may be changed or removed in future versions without notice.
+07:08:35,895 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS018568: Deployment "deployment.merveys-kayit-1.0.15.ear.merveys-kayit-ejb.jar" is using an unsupported module ("org.dom4j:main") which may be changed or removed in future versions without notice.
+07:08:35,911 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS018568: Deployment "deployment.merveys-kayit-1.0.15.ear.merveys-kayit-ejb.jar" is using an unsupported module ("org.dom4j:main") which may be changed or removed in future versions without notice.
+07:08:35,974 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.merveys-kayit-1.0.15.ear.merveys-kayit-ejb.jar" is using a private module ("org.apache.cxf.impl:main") which may be changed or removed in future versions without notice.
+07:08:35,974 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.merveys-kayit-1.0.15.ear.merveys-kayit-ejb.jar" is using a private module ("org.apache.cxf.impl:main") which may be changed or removed in future versions without notice.
+07:08:35,974 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.merveys-kayit-1.0.15.ear.merveys-kayit-ejb.jar" is using a private module ("org.codehaus.woodstox:main") which may be changed or removed in future versions without notice.
+07:08:35,974 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.merveys-kayit-1.0.15.ear.merveys-kayit-ejb.jar" is using a private module ("org.codehaus.woodstox:main") which may be changed or removed in future versions without notice.
+07:08:36,114 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named StartupBean in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/StartupBean!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.singleton.StartupBean
+	java:app/merveys-kayit-ejb/StartupBean!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.singleton.StartupBean
+	java:module/StartupBean!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.singleton.StartupBean
+	java:global/merveys-kayit/merveys-kayit-ejb/StartupBean
+	java:app/merveys-kayit-ejb/StartupBean
+	java:module/StartupBean
+
+07:08:36,145 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named MernisIslemleri in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/MernisIslemleri!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.mernis.MernisIslemleriEJBLocal
+	java:app/merveys-kayit-ejb/MernisIslemleri!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.mernis.MernisIslemleriEJBLocal
+	java:module/MernisIslemleri!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.mernis.MernisIslemleriEJBLocal
+
+07:08:36,145 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named PosetlemeIslemleri in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/PosetlemeIslemleri!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.posetleme.PosetlemeIslemleriEJBLocal
+	java:app/merveys-kayit-ejb/PosetlemeIslemleri!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.posetleme.PosetlemeIslemleriEJBLocal
+	java:module/PosetlemeIslemleri!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.posetleme.PosetlemeIslemleriEJBLocal
+
+07:08:36,161 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named TimerBean in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/TimerBean!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.singleton.TimerBean
+	java:app/merveys-kayit-ejb/TimerBean!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.singleton.TimerBean
+	java:module/TimerBean!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.singleton.TimerBean
+	java:global/merveys-kayit/merveys-kayit-ejb/TimerBean
+	java:app/merveys-kayit-ejb/TimerBean
+	java:module/TimerBean
+
+07:08:36,270 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named KeyProducerEJB in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/KeyProducerEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.anahtar.AnahtarProducerEJB
+	java:app/merveys-kayit-ejb/KeyProducerEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.anahtar.AnahtarProducerEJB
+	java:module/KeyProducerEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.anahtar.AnahtarProducerEJB
+	java:global/merveys-kayit/merveys-kayit-ejb/KeyProducerEJB
+	java:app/merveys-kayit-ejb/KeyProducerEJB
+	java:module/KeyProducerEJB
+
+07:08:36,286 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named EnvanterEJB in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/EnvanterEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.envanter.EnvanterEJBLocal
+	java:app/merveys-kayit-ejb/EnvanterEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.envanter.EnvanterEJBLocal
+	java:module/EnvanterEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.envanter.EnvanterEJBLocal
+	java:global/merveys-kayit/merveys-kayit-ejb/EnvanterEJB
+	java:app/merveys-kayit-ejb/EnvanterEJB
+	java:module/EnvanterEJB
+
+07:08:36,317 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named SystemParameters in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/SystemParameters!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.singleton.SystemParameters
+	java:app/merveys-kayit-ejb/SystemParameters!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.singleton.SystemParameters
+	java:module/SystemParameters!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.singleton.SystemParameters
+	java:global/merveys-kayit/merveys-kayit-ejb/SystemParameters
+	java:app/merveys-kayit-ejb/SystemParameters
+	java:module/SystemParameters
+
+07:08:36,317 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named CallableTaskEJB in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/CallableTaskEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.callabletask.CallableTaskEJBRemote
+	java:app/merveys-kayit-ejb/CallableTaskEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.callabletask.CallableTaskEJBRemote
+	java:module/CallableTaskEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.callabletask.CallableTaskEJBRemote
+	java:jboss/exported/merveys-kayit/merveys-kayit-ejb/CallableTaskEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.callabletask.CallableTaskEJBRemote
+	java:global/merveys-kayit/merveys-kayit-ejb/CallableTaskEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.callabletask.CallableTaskEJB
+	java:app/merveys-kayit-ejb/CallableTaskEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.callabletask.CallableTaskEJB
+	java:module/CallableTaskEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.callabletask.CallableTaskEJB
+
+07:08:36,349 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named common/IslemEJB in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/common/IslemEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.islem.IslemEJB
+	java:app/merveys-kayit-ejb/common/IslemEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.islem.IslemEJB
+	java:module/common/IslemEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.islem.IslemEJB
+	java:global/merveys-kayit/merveys-kayit-ejb/common/IslemEJB
+	java:app/merveys-kayit-ejb/common/IslemEJB
+	java:module/common/IslemEJB
+
+07:08:36,349 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named OnlineUsers in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/OnlineUsers!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.util.OnlineUsers
+	java:app/merveys-kayit-ejb/OnlineUsers!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.util.OnlineUsers
+	java:module/OnlineUsers!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.util.OnlineUsers
+	java:global/merveys-kayit/merveys-kayit-ejb/OnlineUsers
+	java:app/merveys-kayit-ejb/OnlineUsers
+	java:module/OnlineUsers
+
+07:08:36,380 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named TimerJobsEJB in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/TimerJobsEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.timer.TimerJobsEJBRemote
+	java:app/merveys-kayit-ejb/TimerJobsEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.timer.TimerJobsEJBRemote
+	java:module/TimerJobsEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.timer.TimerJobsEJBRemote
+	java:jboss/exported/merveys-kayit/merveys-kayit-ejb/TimerJobsEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.timer.TimerJobsEJBRemote
+	java:global/merveys-kayit/merveys-kayit-ejb/TimerJobsEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.timer.TimerJobsEJBLocal
+	java:app/merveys-kayit-ejb/TimerJobsEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.timer.TimerJobsEJBLocal
+	java:module/TimerJobsEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.timer.TimerJobsEJBLocal
+
+07:08:36,411 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named KartEJB in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/KartEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.kart.KartEJBLocal
+	java:app/merveys-kayit-ejb/KartEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.kart.KartEJBLocal
+	java:module/KartEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.kart.KartEJBLocal
+	java:global/merveys-kayit/merveys-kayit-ejb/KartEJB
+	java:app/merveys-kayit-ejb/KartEJB
+	java:module/KartEJB
+
+07:08:36,411 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named CertificateOperationsEJB in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/CertificateOperationsEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.certificate.CertificateOperationsEJBRemote
+	java:app/merveys-kayit-ejb/CertificateOperationsEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.certificate.CertificateOperationsEJBRemote
+	java:module/CertificateOperationsEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.certificate.CertificateOperationsEJBRemote
+	java:jboss/exported/merveys-kayit/merveys-kayit-ejb/CertificateOperationsEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.certificate.CertificateOperationsEJBRemote
+	java:global/merveys-kayit/merveys-kayit-ejb/CertificateOperationsEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.certificate.CertificateOperationsEJBLocal
+	java:app/merveys-kayit-ejb/CertificateOperationsEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.certificate.CertificateOperationsEJBLocal
+	java:module/CertificateOperationsEJB!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.certificate.CertificateOperationsEJBLocal
+
+07:08:36,442 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named GenericEAO in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/GenericEAO!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.persistence.GenericEAO
+	java:app/merveys-kayit-ejb/GenericEAO!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.persistence.GenericEAO
+	java:module/GenericEAO!tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.ejb.persistence.GenericEAO
+	java:global/merveys-kayit/merveys-kayit-ejb/GenericEAO
+	java:app/merveys-kayit-ejb/GenericEAO
+	java:module/GenericEAO
+
+07:08:36,474 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named BvysIslemleri in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/BvysIslemleri!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.bvys.BVYSIslemleriEJBLocal
+	java:app/merveys-kayit-ejb/BvysIslemleri!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.bvys.BVYSIslemleriEJBLocal
+	java:module/BvysIslemleri!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.bvys.BVYSIslemleriEJBLocal
+
+07:08:36,474 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named BasvuruEJB in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/BasvuruEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.basvuru.BasvuruEJBLocal
+	java:app/merveys-kayit-ejb/BasvuruEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.basvuru.BasvuruEJBLocal
+	java:module/BasvuruEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.basvuru.BasvuruEJBLocal
+	java:global/merveys-kayit/merveys-kayit-ejb/BasvuruEJB
+	java:app/merveys-kayit-ejb/BasvuruEJB
+	java:module/BasvuruEJB
+
+07:08:36,505 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named ArizaEJB in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/ArizaEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.ariza.ArizaEJBRemote
+	java:app/merveys-kayit-ejb/ArizaEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.ariza.ArizaEJBRemote
+	java:module/ArizaEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.ariza.ArizaEJBRemote
+	java:jboss/exported/merveys-kayit/merveys-kayit-ejb/ArizaEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.ariza.ArizaEJBRemote
+	java:global/merveys-kayit/merveys-kayit-ejb/ArizaEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.ariza.ArizaEJBLocal
+	java:app/merveys-kayit-ejb/ArizaEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.ariza.ArizaEJBLocal
+	java:module/ArizaEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.ariza.ArizaEJBLocal
+
+07:08:36,505 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named KartSeriNoPoolEJB in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/KartSeriNoPoolEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.kart.KartSeriNoPoolEJBLocal
+	java:app/merveys-kayit-ejb/KartSeriNoPoolEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.kart.KartSeriNoPoolEJBLocal
+	java:module/KartSeriNoPoolEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.ejb.kart.KartSeriNoPoolEJBLocal
+	java:global/merveys-kayit/merveys-kayit-ejb/KartSeriNoPoolEJB
+	java:app/merveys-kayit-ejb/KartSeriNoPoolEJB
+	java:module/KartSeriNoPoolEJB
+
+07:08:36,536 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named SystemConstantEJB in deployment unit subdeployment "merveys-kayit-ejb.jar" of deployment "merveys-kayit-1.0.15.ear" are as follows:
+
+	java:global/merveys-kayit/merveys-kayit-ejb/SystemConstantEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.globalsabit.SystemConstantEJBLocal
+	java:app/merveys-kayit-ejb/SystemConstantEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.globalsabit.SystemConstantEJBLocal
+	java:module/SystemConstantEJB!tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.globalsabit.SystemConstantEJBLocal
+	java:global/merveys-kayit/merveys-kayit-ejb/SystemConstantEJB
+	java:app/merveys-kayit-ejb/SystemConstantEJB
+	java:module/SystemConstantEJB
+
+07:08:36,614 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010403: Deploying JDBC-compliant driver class oracle.jdbc.OracleDriver (version 11.2)
+07:08:37,317 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-2) JBWS024061: Adding service endpoint metadata: id=BvysIslemleri
+ address=http://SRVAPASKAY01.mernis.test:8180/merveys-kayit-ejb/BvysIslemleri/BvysIslemleri
+ implementor=tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.bvys.BVYSIslemleriWS
+ serviceName={http://tckk/BvysIslemleri}BvysIslemleri
+ portName={http://tckk/BvysIslemleri}BvysIslemleriPort
+ annotationWsdlLocation=META-INF/BvysIslemleri.wsdl
+ wsdlLocationOverride=null
+ mtomEnabled=false
+07:08:37,380 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-2) JBWS024061: Adding service endpoint metadata: id=PosetlemeIslemleri
+ address=http://SRVAPASKAY01.mernis.test:8180/merveys-kayit-ejb/PosetlemeIslemleri/PosetlemeIslemleri
+ implementor=tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.posetleme.PosetlemeIslemleriWS
+ serviceName={http://tckk/PosetlemeIslemleri}PosetlemeIslemleri
+ portName={http://tckk/PosetlemeIslemleri}PosetlemeIslemleriPort
+ annotationWsdlLocation=META-INF/PosetlemeIslemleri.wsdl
+ wsdlLocationOverride=null
+ mtomEnabled=false
+07:08:37,395 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-2) JBWS024061: Adding service endpoint metadata: id=MernisIslemleri
+ address=http://SRVAPASKAY01.mernis.test:8180/merveys-kayit-ejb/MernisIslemleri/MernisIslemleri
+ implementor=tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.mernis.MernisIslemleriWS
+ serviceName={http://tckk/MernisIslemleri}MernisIslemleri
+ portName={http://tckk/MernisIslemleri}MernisIslemleriPort
+ annotationWsdlLocation=META-INF/MernisIslemleri.wsdl
+ wsdlLocationOverride=null
+ mtomEnabled=false
+07:08:38,052 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-2) Creating Service {http://tckk/BvysIslemleri}BvysIslemleri from WSDL: META-INF/BvysIslemleri.wsdl
+07:08:38,474 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-2) Setting the server's publish address to be http://SRVAPASKAY01.mernis.test:8180/merveys-kayit-ejb/BvysIslemleri/BvysIslemleri
+07:08:38,583 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-2) JBWS024074: WSDL published to: file:/C:/Server/jboss-eap-6.1/standalone/data/wsdl/merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar/BvysIslemleri.wsdl
+07:08:38,614 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-2) Creating Service {http://tckk/PosetlemeIslemleri}PosetlemeIslemleri from WSDL: META-INF/PosetlemeIslemleri.wsdl
+07:08:38,724 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-2) Setting the server's publish address to be http://SRVAPASKAY01.mernis.test:8180/merveys-kayit-ejb/PosetlemeIslemleri/PosetlemeIslemleri
+07:08:38,755 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-2) JBWS024074: WSDL published to: file:/C:/Server/jboss-eap-6.1/standalone/data/wsdl/merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar/PosetlemeIslemleri.wsdl
+07:08:38,770 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-2) Creating Service {http://tckk/MernisIslemleri}MernisIslemleri from WSDL: META-INF/MernisIslemleri.wsdl
+07:08:38,911 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-2) Setting the server's publish address to be http://SRVAPASKAY01.mernis.test:8180/merveys-kayit-ejb/MernisIslemleri/MernisIslemleri
+07:08:38,942 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-2) JBWS024074: WSDL published to: file:/C:/Server/jboss-eap-6.1/standalone/data/wsdl/merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar/MernisIslemleri.wsdl
+07:08:39,005 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011402: Starting Persistence Unit Service 'merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar#TckkDS'
+07:08:39,052 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) JBAS015539: Starting service jboss.ws.port-component-link
+07:08:39,255 INFO  [org.jboss.as.webservices] (MSC service thread 1-4) JBAS015539: Starting service jboss.ws.endpoint."merveys-kayit-1.0.15.ear"."merveys-kayit-ejb.jar".BvysIslemleri
+07:08:39,270 INFO  [org.jboss.as.webservices] (MSC service thread 1-3) JBAS015539: Starting service jboss.ws.endpoint."merveys-kayit-1.0.15.ear"."merveys-kayit-ejb.jar".PosetlemeIslemleri
+07:08:39,270 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) JBAS015539: Starting service jboss.ws.endpoint."merveys-kayit-1.0.15.ear"."merveys-kayit-ejb.jar".MernisIslemleri
+07:08:39,270 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 50) HCANN000001: Hibernate Commons Annotations {4.0.1.Final-redhat-2}
+07:08:39,286 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022050: Endpoint registered: jboss.ws:context=merveys-kayit-ejb,endpoint=MernisIslemleri
+07:08:39,286 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022050: Endpoint registered: jboss.ws:context=merveys-kayit-ejb,endpoint=PosetlemeIslemleri
+07:08:39,270 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022050: Endpoint registered: jboss.ws:context=merveys-kayit-ejb,endpoint=BvysIslemleri
+07:08:39,302 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 50) HHH000412: Hibernate Core {4.2.0.Final-redhat-1}
+07:08:39,458 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000206: hibernate.properties not found
+07:08:39,458 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000021: Bytecode provider name : javassist
+07:08:39,489 INFO  [org.hibernate.ejb.Ejb3Configuration] (ServerService Thread Pool -- 50) HHH000204: Processing PersistenceUnitInfo [
+	name: TckkDS
+	...]
+07:08:40,208 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (ServerService Thread Pool -- 50) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+07:08:40,849 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 50) HHH000400: Using dialect: tr.gov.tubitak.bilgem.uekae.deys.merveys.common.controller.util.Oracle11gDialect
+07:08:40,864 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (ServerService Thread Pool -- 50) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+07:08:40,880 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 50) HHH000397: Using ASTQueryTranslatorFactory
+07:08:40,927 INFO  [org.hibernate.cache.spi.UpdateTimestampsCache] (ServerService Thread Pool -- 50) HHH000250: Starting update timestamps cache at region: merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar#TckkDS.org.hibernate.cache.spi.UpdateTimestampsCache
+07:08:40,942 INFO  [org.infinispan.factories.GlobalComponentRegistry] (ServerService Thread Pool -- 50) ISPN000128: Infinispan version: Infinispan 'Delirium' 5.2.6.Final
+07:08:41,099 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 50) ISPN000031: MBeans were successfully registered to the platform MBean server.
+07:08:41,099 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) JBAS010281: Started merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar#TckkDS.org.hibernate.cache.spi.UpdateTimestampsCache cache from hibernate container
+07:08:41,099 INFO  [org.hibernate.cache.internal.StandardQueryCache] (ServerService Thread Pool -- 50) HHH000248: Starting query cache at region: merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar#TckkDS.org.hibernate.cache.internal.StandardQueryCache
+07:08:41,130 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 50) ISPN000031: MBeans were successfully registered to the platform MBean server.
+07:08:41,130 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) JBAS010281: Started merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar#TckkDS.org.hibernate.cache.internal.StandardQueryCache cache from hibernate container
+07:08:41,161 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 50) HV000001: Hibernate Validator 4.3.1.Final-redhat-1
+07:08:41,630 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 50) ISPN000031: MBeans were successfully registered to the platform MBean server.
+07:08:41,630 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) JBAS010281: Started merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar#TckkDS.tr.gov.tubitak.bilgem.uekae.deys.merveys.common.model.entity.topoloji.BolgeEO cache from hibernate container
+07:08:41,645 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 50) ISPN000031: MBeans were successfully registered to the platform MBean server.
+07:08:41,645 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) JBAS010281: Started pending-puts cache from hibernate container
+07:08:41,817 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 50) ISPN000031: MBeans were successfully registered to the platform MBean server.
+07:08:41,817 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) JBAS010281: Started merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar#TckkDS.tr.gov.tubitak.bilgem.uekae.deys.merveys.common.model.entity.topoloji.UlkeEO cache from hibernate container
+07:08:41,817 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 50) ISPN000031: MBeans were successfully registered to the platform MBean server.
+07:08:41,817 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) JBAS010281: Started merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar#TckkDS.tr.gov.tubitak.bilgem.uekae.deys.merveys.common.model.entity.topoloji.IlEO cache from hibernate container
+07:08:41,895 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 50) ISPN000031: MBeans were successfully registered to the platform MBean server.
+07:08:41,895 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) JBAS010281: Started merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar#TckkDS.tr.gov.tubitak.bilgem.uekae.deys.merveys.common.model.entity.topoloji.IlceEO cache from hibernate container
+07:08:41,911 INFO  [org.hibernate.tuple.entity.EntityMetamodel] (ServerService Thread Pool -- 50) HHH000157: Lazy property fetching available for: tr.gov.tubitak.bilgem.uekae.deys.merveys.common.model.entity.kart.KartTipEO
+07:08:41,927 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 50) ISPN000031: MBeans were successfully registered to the platform MBean server.
+07:08:41,942 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) JBAS010281: Started merveys-kayit-1.0.15.ear/merveys-kayit-ejb.jar#TckkDS.tr.gov.tubitak.bilgem.uekae.deys.merveys.common.model.entity.topoloji.MernisBirimEO cache from hibernate container
+07:08:42,505 WARN  [org.hibernate.dialect.function.TemplateRenderer] (ServerService Thread Pool -- 50) HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+07:08:42,505 WARN  [org.hibernate.dialect.function.TemplateRenderer] (ServerService Thread Pool -- 50) HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+07:08:42,755 WARN  [org.hibernate.dialect.function.TemplateRenderer] (ServerService Thread Pool -- 50) HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+07:08:42,755 WARN  [org.hibernate.dialect.function.TemplateRenderer] (ServerService Thread Pool -- 50) HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+07:08:42,786 WARN  [org.hibernate.dialect.function.TemplateRenderer] (ServerService Thread Pool -- 50) HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+07:08:42,786 WARN  [org.hibernate.dialect.function.TemplateRenderer] (ServerService Thread Pool -- 50) HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+07:08:43,067 WARN  [org.hibernate.dialect.function.TemplateRenderer] (ServerService Thread Pool -- 50) HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+07:08:43,067 WARN  [org.hibernate.dialect.function.TemplateRenderer] (ServerService Thread Pool -- 50) HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+07:08:43,083 WARN  [org.hibernate.dialect.function.TemplateRenderer] (ServerService Thread Pool -- 50) HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+07:08:43,099 WARN  [org.hibernate.dialect.function.TemplateRenderer] (ServerService Thread Pool -- 50) HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+07:08:43,380 INFO  [tr.gov.tubitak.bilgem.uekae.deys.common.merveys.controller.util.OnlineUsers] (ServerService Thread Pool -- 52) OnlineUsers initialize edildi.
+07:08:43,380 INFO  [stdout] (ServerService Thread Pool -- 53)  -------------------------------------------------------   MERKEZI VERI YONETIM SISTEMI BASLADI   ---------------------------------------- 
+07:08:43,380 INFO  [stdout] (ServerService Thread Pool -- 53)  ------------------------------------------------------------------------------------------------------------------------------------------------- 
+07:08:43,380 INFO  [stdout] (ServerService Thread Pool -- 53)  -----------------------   MMMMM             MMMMM  EEEEEEEEEE  RRRRRRRRR  RR          RR  EEEEEEEEEE  YY      YY    SSSSSSSSS  ------------------ 
+07:08:43,395 INFO  [stdout] (ServerService Thread Pool -- 53)  -----------------------   MMM MMM         MMM MMM  EEE         RRR     R  RR          RR  EEE         YY      YY  SS           ------------------ 
+07:08:43,395 INFO  [stdout] (ServerService Thread Pool -- 53)  -----------------------   MMM  MMM       MMM  MMM  EEE         RRR     R    RR      RR    EEE           YY  YY    SS           ------------------ 
+07:08:43,395 INFO  [stdout] (ServerService Thread Pool -- 53)  -----------------------   MMM   MMM     MMM   MMM  EEEEEEEEEE  RRRRRRRRR    RR      RR    EEEEEEEEEE      YY        SSSSSSS    ------------------ 
+07:08:43,395 INFO  [stdout] (ServerService Thread Pool -- 53)  -----------------------   MMM    MMM   MMM    MMM  EEE         RRRRR          RR  RR      EEE             YY               SS  ------------------ 
+07:08:43,395 INFO  [stdout] (ServerService Thread Pool -- 53)  -----------------------   MMM     MMM MMM     MMM  EEE         RRR  RR        RR  RR      EEE             YY               SS  ------------------ 
+07:08:43,395 INFO  [stdout] (ServerService Thread Pool -- 53)  -----------------------   MMM       MMM       MMM  EEEEEEEEEE  RRR    RR        RR        EEEEEEEEEE      YY      SSSSSSSSS    ------------------ 
+07:08:43,677 INFO  [tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.singleton.TimerBean] (ServerService Thread Pool -- 52) Olusturulan Timer: <CALL_ZAMALANMIS_GOREV_TASK>
+07:08:43,677 INFO  [tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.singleton.TimerBean] (ServerService Thread Pool -- 52) TimerBean sinifi initialize edildi.
+07:08:43,895 INFO  [tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ejb.singleton.SystemParameters] (ServerService Thread Pool -- 53) Sistem Parametreleri Ayarland?.
+07:08:43,895 INFO  [org.jboss.web] (ServerService Thread Pool -- 53) JBAS018210: Register web context: /merveys-kayit-ejb
+07:08:44,020 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "merveys-kayit-1.0.15.ear" (runtime-name : "merveys-kayit-1.0.15.ear")
+07:08:44,224 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://172.29.72.11:10090/management
+07:08:44,239 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://172.29.72.11:10090
+07:08:44,239 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.1.0.GA (AS 7.2.0.Final-redhat-8) started in 25219ms - Started 562 of 622 services (59 services are passive or on-demand)
+07:09:20,739 WARN  [tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.mernis.MernisIslemleriWS] (http-SRVAPASKAY01.mernis.test/172.29.72.11:8180-1) TckkBasvuru [basvuruId=32629, tckNo=68764261445, adi=?LYAS, soyadi=D?ZDAR, vizAdi=TANER, vizSoyadi=SABUNCU, dogumYeri=D?YARBAKIR, formatlanmisDogumTarihi=09 MAR/MAR 2020, dogumGun=14, dogumAy=8, dogumYil=1984, cinsiyet=Erkek, uyrugu=T.C., meslek=null, title=JEOF?Z?K MÜHEND?S?, unvan=BO?, pasaportTuru=Umuma Mahsus, formatlanmisDuzenlenmeTarihi=09 MAR/MAR 2020, duzenlenmeTarihiGun=7, duzenlenmeTarihiAy=5, duzenlenmeTarihiYil=2020, formatlanmisSonGecerlilikTarihi=09 MAR/MAR 2030, sonGecerlilikTarihiGun=7, sonGecerlilikTarihiAy=5, sonGecerlilikTarihiYil=2030, kpsAdres=AÇIK ADRES, verenMakam=ANKARA, oncelik=Normal Ba?vuru, mrzLine=?LYAS<<D?ZDAR<<<<<<<<<<<<<<<<<<<<<<<<<<, teslimSekli=PTT ile teslim, teslimKisiAd=TANER, teslimKisiSoyad=KILIÇ, teslimAliciAdresiSatir1=ADRES1, teslimAliciAdresiSatir2=ADRS2, teslimAliciAdresiSatir3=ADRES3, teslimAliciAdresiSatir4=ADRES4, basvuruPostaTakipKod=1606006426143, aliciMernisBirimKodu=1204, iadeMernisBirimKodu=1204, telefonNumarasi=BO?, cepTelefonNumarasi=BO?, mernisIslemId=5112fbfb-460f-4056-88b3-975d7d10f8af, mernisAciklama=Ba?vuru Aç?klama, bvysOnayMuaf=false, teslimKisiAd=TANER, teslimKisiSoyad=KILIÇ]
+07:09:20,739 INFO  [tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.mernis.MernisIslemleriWS] (http-SRVAPASKAY01.mernis.test/172.29.72.11:8180-1) mernisIslemId:5112fbfb-460f-4056-88b3-975d7d10f8af isBasarili:true hataKodu:0 metot: basvuruKaydet
+07:09:20,786 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (http-SRVAPASKAY01.mernis.test/172.29.72.11:8180-1) SQL Error: 1502, SQLState: 72000
+07:09:20,786 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (http-SRVAPASKAY01.mernis.test/172.29.72.11:8180-1) ORA-01502: index 'TCKKPAS.BASVURU_ANAHTAR_DEGER_PK' or partition of such index is in unusable state
+
+07:09:20,801 WARN  [com.arjuna.ats.arjuna] (http-SRVAPASKAY01.mernis.test/172.29.72.11:8180-1) ARJUNA012125: TwoPhaseCoordinator.beforeCompletion - failed for SynchronizationImple< 0:ffffac1d480b:-42654ca8:5eb3f334:1f, org.hibernate.engine.transaction.synchronization.internal.RegisteredSynchronization@e3fabd8 >: javax.persistence.QueryTimeoutException: could not execute statement
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1349) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1310) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1316) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl$CallbackExceptionMapperImpl.mapManagedFlushFailure(AbstractEntityManagerImpl.java:1510) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.transaction.synchronization.internal.SynchronizationCallbackCoordinatorImpl.beforeCompletion(SynchronizationCallbackCoordinatorImpl.java:117) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.transaction.synchronization.internal.RegisteredSynchronization.beforeCompletion(RegisteredSynchronization.java:53) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:76)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:273)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:93)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:162)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1165)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:126)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.endTransaction(CMTTxInterceptor.java:91) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:252) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:315) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:214) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.security.AuthorizationInterceptor.processInvocation(AuthorizationInterceptor.java:122) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:76) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50) [jboss-as-ee-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ee.component.TCCLInterceptor.processInvocation(TCCLInterceptor.java:45) [jboss-as-ee-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:165) [jboss-as-ee-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:111)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:149)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178) [cxf-rt-frontend-jaxws-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:66) [cxf-rt-frontend-jaxws-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:129)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439) [rt.jar:1.6.0_45]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303) [rt.jar:1.6.0_45]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138) [rt.jar:1.6.0_45]
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:237) [cxf-rt-transports-http-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:95)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:156)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:87)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:225) [cxf-rt-transports-http-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:145) [cxf-rt-transports-http-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754) [jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-1.jar:1.0.2.Final-redhat-1]
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:135)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.1.2.Final-redhat-1.jar:2.1.2.Final-redhat-1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-1.jar:1.0.2.Final-redhat-1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:295)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:230)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:149)
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:169)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:97)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:102)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:336)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:653)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:920)
+	at java.lang.Thread.run(Thread.java:662) [rt.jar:1.6.0_45]
+Caused by: org.hibernate.QueryTimeoutException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:151) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:136) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:58) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3058) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3499) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:88) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:362) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:354) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:275) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:328) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:52) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1233) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:403) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.transaction.synchronization.internal.SynchronizationCallbackCoordinatorImpl.beforeCompletion(SynchronizationCallbackCoordinatorImpl.java:112) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	... 68 more
+Caused by: java.sql.SQLException: ORA-01502: index 'TCKKPAS.BASVURU_ANAHTAR_DEGER_PK' or partition of such index is in unusable state
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at org.jboss.jca.adapters.jdbc.WrappedPreparedStatement.executeUpdate(WrappedPreparedStatement.java:493)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:133) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	... 80 more
+
+07:09:20,926 INFO  [org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl] (http-SRVAPASKAY01.mernis.test/172.29.72.11:8180-1) HHH000010: On release of batch it still contained JDBC statements
+07:09:20,926 ERROR [org.jboss.as.ejb3.invocation] (http-SRVAPASKAY01.mernis.test/172.29.72.11:8180-1) JBAS014134: EJB Invocation failed on component MernisIslemleri for method public tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.model.StandartWSSonuc tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.controller.ws.mernis.MernisIslemleriWS.basvuruKaydet(tr.gov.tubitak.bilgem.uekae.deys.merveys.kayit.model.TckkBasvuru): javax.ejb.EJBTransactionRolledbackException: Transaction rolled back
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleEndTransactionException(CMTTxInterceptor.java:114) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.endTransaction(CMTTxInterceptor.java:94) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:252) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:315) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:214) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.security.AuthorizationInterceptor.processInvocation(AuthorizationInterceptor.java:122) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:76) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50) [jboss-as-ee-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ee.component.TCCLInterceptor.processInvocation(TCCLInterceptor.java:45) [jboss-as-ee-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:165) [jboss-as-ee-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:111)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:149)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178) [cxf-rt-frontend-jaxws-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:66) [cxf-rt-frontend-jaxws-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:129)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439) [rt.jar:1.6.0_45]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303) [rt.jar:1.6.0_45]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138) [rt.jar:1.6.0_45]
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:237) [cxf-rt-transports-http-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:95)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:156)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:87)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:225) [cxf-rt-transports-http-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:145) [cxf-rt-transports-http-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754) [jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-1.jar:1.0.2.Final-redhat-1]
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:135)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.1.2.Final-redhat-1.jar:2.1.2.Final-redhat-1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-1.jar:1.0.2.Final-redhat-1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:295)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:230)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:149)
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:169)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:97)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:102)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:336)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:653)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:920)
+	at java.lang.Thread.run(Thread.java:662) [rt.jar:1.6.0_45]
+Caused by: javax.transaction.RollbackException: ARJUNA016053: Could not commit transaction.
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:126)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.endTransaction(CMTTxInterceptor.java:91) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	... 59 more
+Caused by: javax.persistence.QueryTimeoutException: could not execute statement
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1349) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1310) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1316) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl$CallbackExceptionMapperImpl.mapManagedFlushFailure(AbstractEntityManagerImpl.java:1510) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.transaction.synchronization.internal.SynchronizationCallbackCoordinatorImpl.beforeCompletion(SynchronizationCallbackCoordinatorImpl.java:117) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.transaction.synchronization.internal.RegisteredSynchronization.beforeCompletion(RegisteredSynchronization.java:53) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:76)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:273)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:93)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:162)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1165)
+	... 62 more
+Caused by: org.hibernate.QueryTimeoutException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:151) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:136) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:58) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3058) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3499) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:88) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:362) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:354) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:275) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:328) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:52) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1233) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:403) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.transaction.synchronization.internal.SynchronizationCallbackCoordinatorImpl.beforeCompletion(SynchronizationCallbackCoordinatorImpl.java:112) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	... 68 more
+Caused by: java.sql.SQLException: ORA-01502: index 'TCKKPAS.BASVURU_ANAHTAR_DEGER_PK' or partition of such index is in unusable state
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at org.jboss.jca.adapters.jdbc.WrappedPreparedStatement.executeUpdate(WrappedPreparedStatement.java:493)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:133) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	... 80 more
+
+07:09:21,052 ERROR [org.jboss.as.webservices.invocation.InvocationHandlerJAXWS] (http-SRVAPASKAY01.mernis.test/172.29.72.11:8180-1) JBAS015594: Method invocation failed with exception: Transaction rolled back: javax.ejb.EJBTransactionRolledbackException: Transaction rolled back
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleEndTransactionException(CMTTxInterceptor.java:114) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.endTransaction(CMTTxInterceptor.java:94) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:252) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:315) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:214) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.security.AuthorizationInterceptor.processInvocation(AuthorizationInterceptor.java:122) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:76) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50) [jboss-as-ee-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ee.component.TCCLInterceptor.processInvocation(TCCLInterceptor.java:45) [jboss-as-ee-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:165) [jboss-as-ee-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:111)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:149)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178) [cxf-rt-frontend-jaxws-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:66) [cxf-rt-frontend-jaxws-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:129)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439) [rt.jar:1.6.0_45]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303) [rt.jar:1.6.0_45]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138) [rt.jar:1.6.0_45]
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:237) [cxf-rt-transports-http-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:95)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:156)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:87)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:225) [cxf-rt-transports-http-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:145) [cxf-rt-transports-http-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754) [jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-1.jar:1.0.2.Final-redhat-1]
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:135)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.1.2.Final-redhat-1.jar:2.1.2.Final-redhat-1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-1.jar:1.0.2.Final-redhat-1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:295)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:230)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:149)
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:169)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:97)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:102)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:336)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:653)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:920)
+	at java.lang.Thread.run(Thread.java:662) [rt.jar:1.6.0_45]
+Caused by: javax.transaction.RollbackException: ARJUNA016053: Could not commit transaction.
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:126)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.endTransaction(CMTTxInterceptor.java:91) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	... 59 more
+Caused by: javax.persistence.QueryTimeoutException: could not execute statement
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1349) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1310) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1316) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl$CallbackExceptionMapperImpl.mapManagedFlushFailure(AbstractEntityManagerImpl.java:1510) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.transaction.synchronization.internal.SynchronizationCallbackCoordinatorImpl.beforeCompletion(SynchronizationCallbackCoordinatorImpl.java:117) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.transaction.synchronization.internal.RegisteredSynchronization.beforeCompletion(RegisteredSynchronization.java:53) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:76)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:273)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:93)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:162)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1165)
+	... 62 more
+Caused by: org.hibernate.QueryTimeoutException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:151) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:136) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:58) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3058) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3499) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:88) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:362) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:354) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:275) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:328) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:52) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1233) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:403) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.transaction.synchronization.internal.SynchronizationCallbackCoordinatorImpl.beforeCompletion(SynchronizationCallbackCoordinatorImpl.java:112) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	... 68 more
+Caused by: java.sql.SQLException: ORA-01502: index 'TCKKPAS.BASVURU_ANAHTAR_DEGER_PK' or partition of such index is in unusable state
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at org.jboss.jca.adapters.jdbc.WrappedPreparedStatement.executeUpdate(WrappedPreparedStatement.java:493)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:133) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	... 80 more
+
+07:09:21,176 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (http-SRVAPASKAY01.mernis.test/172.29.72.11:8180-1) Application {http://tckk/MernisIslemleri}MernisIslemleri#{http://tckk/MernisIslemleri}basvuruKaydet has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: Transaction rolled back
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.createFault(AbstractJAXWSMethodInvoker.java:213) [cxf-rt-frontend-jaxws-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:178) [cxf-rt-frontend-jaxws-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:66) [cxf-rt-frontend-jaxws-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:129)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:439) [rt.jar:1.6.0_45]
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303) [rt.jar:1.6.0_45]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138) [rt.jar:1.6.0_45]
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:262) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:237) [cxf-rt-transports-http-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:95)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:156)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:87)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:225) [cxf-rt-transports-http-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:145) [cxf-rt-transports-http-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:754) [jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-1.jar:1.0.2.Final-redhat-1]
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:135)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.1.2.Final-redhat-1.jar:2.1.2.Final-redhat-1]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:847) [jboss-servlet-api_3.0_spec-1.0.2.Final-redhat-1.jar:1.0.2.Final-redhat-1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:295)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:214)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:230)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:149)
+	at org.jboss.as.web.security.SecurityContextAssociationValve.invoke(SecurityContextAssociationValve.java:169)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:145)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:97)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:102)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:336)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:856)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:653)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:920)
+	at java.lang.Thread.run(Thread.java:662) [rt.jar:1.6.0_45]
+Caused by: javax.ejb.EJBTransactionRolledbackException: Transaction rolled back
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleEndTransactionException(CMTTxInterceptor.java:114) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.endTransaction(CMTTxInterceptor.java:94) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:252) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:315) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:214) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.security.AuthorizationInterceptor.processInvocation(AuthorizationInterceptor.java:122) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:76) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50) [jboss-as-ee-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ee.component.TCCLInterceptor.processInvocation(TCCLInterceptor.java:45) [jboss-as-ee-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:288) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61) [jboss-invocation-1.1.1.Final-redhat-2.jar:1.1.1.Final-redhat-2]
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:165) [jboss-as-ee-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:111)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:149)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96) [cxf-api-2.6.6-redhat-3.jar:2.6.6-redhat-3]
+	... 34 more
+Caused by: javax.transaction.RollbackException: ARJUNA016053: Could not commit transaction.
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1177)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.BaseTransaction.commit(BaseTransaction.java:126)
+	at com.arjuna.ats.jbossatx.BaseTransactionManagerDelegate.commit(BaseTransactionManagerDelegate.java:75)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.endTransaction(CMTTxInterceptor.java:91) [jboss-as-ejb3-7.2.0.Final-redhat-8.jar:7.2.0.Final-redhat-8]
+	... 59 more
+Caused by: javax.persistence.QueryTimeoutException: could not execute statement
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1349) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1310) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1316) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.ejb.AbstractEntityManagerImpl$CallbackExceptionMapperImpl.mapManagedFlushFailure(AbstractEntityManagerImpl.java:1510) [hibernate-entitymanager-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.transaction.synchronization.internal.SynchronizationCallbackCoordinatorImpl.beforeCompletion(SynchronizationCallbackCoordinatorImpl.java:117) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.transaction.synchronization.internal.RegisteredSynchronization.beforeCompletion(RegisteredSynchronization.java:53) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at com.arjuna.ats.internal.jta.resources.arjunacore.SynchronizationImple.beforeCompletion(SynchronizationImple.java:76)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.beforeCompletion(TwoPhaseCoordinator.java:273)
+	at com.arjuna.ats.arjuna.coordinator.TwoPhaseCoordinator.end(TwoPhaseCoordinator.java:93)
+	at com.arjuna.ats.arjuna.AtomicAction.commit(AtomicAction.java:162)
+	at com.arjuna.ats.internal.jta.transaction.arjunacore.TransactionImple.commitAndDisassociate(TransactionImple.java:1165)
+	... 62 more
+Caused by: org.hibernate.QueryTimeoutException: could not execute statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:151) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:136) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:58) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3058) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3499) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:88) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:362) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:354) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:275) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:328) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:52) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1233) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:403) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	at org.hibernate.engine.transaction.synchronization.internal.SynchronizationCallbackCoordinatorImpl.beforeCompletion(SynchronizationCallbackCoordinatorImpl.java:112) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	... 68 more
+Caused by: java.sql.SQLException: ORA-01502: index 'TCKKPAS.BASVURU_ANAHTAR_DEGER_PK' or partition of such index is in unusable state
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:399) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1017) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:655) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:249) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:566) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:215) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:58) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:943) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1075) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3820) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3897) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1361) [ojdbc6-11.2.2.0.jar:11.2.0.2.0]
+	at org.jboss.jca.adapters.jdbc.WrappedPreparedStatement.executeUpdate(WrappedPreparedStatement.java:493)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:133) [hibernate-core-4.2.0.Final-redhat-1.jar:4.2.0.Final-redhat-1]
+	... 80 more
+

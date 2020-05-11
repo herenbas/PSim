@@ -1,0 +1,9 @@
+<Paths>
+	<Isim>/Data/isimler.txt</Isim>
+	<Soyisim>/Data/soyisimler.txt</Soyisim>
+	<Sehir>/Data/iller.txt</Sehir>
+	<Meslek>/Data/meslekler.txt</Meslek>
+	<Resim>Data/Images/</Resim>
+	<Imza>/Data/signatures/</Imza>
+	<Parmak>/Data/EF_DG3_New.xml</Parmak>
+</Paths>
