@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Data.SQLite;
+using Microsoft.Data.Sqlite;
 using System.Data.SqlTypes;
 using System.IO;
 using System.Linq;
@@ -198,11 +198,12 @@ namespace PSim
         {
             iller = new List<string>();
 
-            SQLiteConnection con = new SQLiteConnection(@"DataSource = " + Application.StartupPath + "/MNS.db");
-            SQLiteCommand com = new SQLiteCommand("select * from MRNSBR", con);
+            SqliteConnection con = new SqliteConnection(@"DataSource = " + Application.StartupPath + "/MNS.db");
+
+            SqliteCommand com = new SqliteCommand("select * from MRNSBR", con);
             con.Open();
-            SQLiteDataReader rdr = com.ExecuteReader();
-         
+            SqliteDataReader rdr = com.ExecuteReader();
+
             if (rdr.HasRows)
             {
                 while (rdr.Read())
