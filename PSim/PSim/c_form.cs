@@ -73,8 +73,10 @@ namespace PSim
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            button1.Enabled = false;
             count = 0;
             listBox1.Items.Clear();
+            progressBar1.Maximum = Convert.ToInt32(numericUpDown2.Value);
 
             Task t = new Task(() =>
              {
@@ -83,6 +85,8 @@ namespace PSim
                      b_kaydet();
                      count++;
                      label6.Text = "Gönderilen Başvuru Adeti:"+" \n"+ count.ToString();
+                     
+                     progressBar1.Value = count;
                    
                  }
 
@@ -90,6 +94,7 @@ namespace PSim
 
              });
             t.Start();
+
             //if (t.Status==TaskStatus.Running)
             //{
 
@@ -98,9 +103,9 @@ namespace PSim
             //{
             //    random_isler();
             //}
-           
-            
-            
+
+
+            button1.Enabled = true;
 
          
             

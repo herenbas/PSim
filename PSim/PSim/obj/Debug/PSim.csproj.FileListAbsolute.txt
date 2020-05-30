@@ -154,7 +154,6 @@ C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\System.Xml.XmlDocum
 C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\System.Xml.XmlSerializer.dll
 C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\System.Xml.XPath.dll
 C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\System.Xml.XPath.XDocument.dll
-C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\obj\Debug\PSim.csprojAssemblyReference.cache
 C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\obj\Debug\PSim.exe.config
 C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\Microsoft.Data.Sqlite.dll
 C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\SQLitePCLRaw.batteries_v2.dll
@@ -162,3 +161,6 @@ C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\SQLitePCLRaw.core.d
 C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\SQLitePCLRaw.nativelibrary.dll
 C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\CircularProgressBar.dll
+C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\WinFormAnimation.dll
+C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\CircularProgressBar.xml
