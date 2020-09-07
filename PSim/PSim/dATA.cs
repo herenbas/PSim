@@ -172,7 +172,7 @@ namespace PSim
                 //  BvysSer.standartWSSonuc sonuc = new BvysSer.standartWSSonuc();
                 //byte[] veri = System.Convert.FromBase64String(convert_to_DG3(@"C:\Users\Eren BAŞ\Desktop\wssim_\DUMMY_DATA\EG_DG3_New.xml"));
 
-                sonuc = client.bvysOnayBildir(m_id, convert_to_DG3(Application.StartupPath+ "/Data/EF_DG3_New.xml"));
+                sonuc = client.bvysOnayBildir(m_id, convert_to_DG3(Application.StartupPath+ "/Data/nofp.xml"));
                 return sonuc;
 
                 

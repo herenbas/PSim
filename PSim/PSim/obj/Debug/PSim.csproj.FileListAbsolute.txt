@@ -164,3 +164,4 @@ C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\Microsoft.Data.Sqli
 C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\CircularProgressBar.dll
 C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\WinFormAnimation.dll
 C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\bin\Debug\CircularProgressBar.xml
+C:\Users\Eren BAŞ\Documents\GitHub\PSim\PSim\PSim\obj\Debug\PSim.csprojAssemblyReference.cache
